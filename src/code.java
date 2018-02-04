@@ -10,7 +10,7 @@ public class code extends AddonClass {
 	public Map<String, String> getPlaceholders() {
 		String currentGame = Minigames.getCurrentGameName();
 		Map<String, String> placeholders = new HashMap<>();
-		placeholders.put("{game}", currentGame);
+		placeholders.put("game", currentGame);
 		return placeholders;
 	}
 
